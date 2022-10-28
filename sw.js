@@ -27,7 +27,7 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-bcef9fcf3568c00d00d9.js"
+    "url": "webpack-runtime-a8e0ebf831c1cb6019ac.js"
   },
   {
     "url": "framework-fe906074cb37c01c8c51.js"
@@ -48,18 +48,18 @@ self.__precacheManifest = [
     "url": "ecd5c527-75ab8a0709cb2eed391f.js"
   },
   {
-    "url": "app-45dbf75c70c009224a92.js"
+    "url": "app-a5f4225437a322327374.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "7900e54cd1e165f41c2e1d757a7751f2"
+    "revision": "e3b0be46a4db9661c4f20c90f6d0ad9e"
   },
   {
     "url": "polyfill-2bfcc381e1b3b9d58aa6.js"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "0a3b7258daf24a89bcd17e8d8f932f82"
+    "revision": "8027146246fc0310beaf2837ac1399ec"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -164,12 +164,12 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   lastNavigationRequest = event.request.url
 
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^/labelU`), ``)
+  pathname = pathname.replace(new RegExp(`^/labelU-kit`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/labelU/app-45dbf75c70c009224a92.js`))) {
+  if (!resources || !(await caches.match(`/labelU-kit/app-a5f4225437a322327374.js`))) {
     return await fetch(event.request)
   }
 
@@ -182,7 +182,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/labelU/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/labelU-kit/offline-plugin-app-shell-fallback/index.html`
   const offlineShellWithKey = workbox.precaching.getCacheKeyForURL(offlineShell)
   return await caches.match(offlineShellWithKey)
 })
