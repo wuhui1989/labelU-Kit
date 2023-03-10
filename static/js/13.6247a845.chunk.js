@@ -1,1 +1,0 @@
-(this.webpackJsonpweb=this.webpackJsonpweb||[]).push([[13],{1039:function(t,e,p){"use strict";p.r(e),e.default=p.p+"static/media/pointImg.4db6e919.png"}}]);
