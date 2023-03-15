@@ -8,7 +8,7 @@
     "static/js/5.374bb5ac.chunk.js": "/labelU-Kit/static/js/5.374bb5ac.chunk.js",
     "404'.js": "/labelU-Kit/static/js/404'.e458e8ed.chunk.js",
     "main.css": "/labelU-Kit/static/css/main.b69a22e2.chunk.css",
-    "main.js": "/labelU-Kit/static/js/main.abf7d6c8.chunk.js",
+    "main.js": "/labelU-Kit/static/js/main.3d755f30.chunk.js",
     "runtime-main.js": "/labelU-Kit/static/js/runtime-main.0bea86b4.js",
     "static/css/9.be0cdab6.chunk.css": "/labelU-Kit/static/css/9.be0cdab6.chunk.css",
     "static/js/9.9e2d396f.chunk.js": "/labelU-Kit/static/js/9.9e2d396f.chunk.js",
@@ -468,7 +468,7 @@
     "index.html": "/labelU-Kit/index.html",
     "static/js/11.b779b0fd.chunk.js.LICENSE.txt": "/labelU-Kit/static/js/11.b779b0fd.chunk.js.LICENSE.txt",
     "static/js/9.9e2d396f.chunk.js.LICENSE.txt": "/labelU-Kit/static/js/9.9e2d396f.chunk.js.LICENSE.txt",
-    "static/js/main.abf7d6c8.chunk.js.LICENSE.txt": "/labelU-Kit/static/js/main.abf7d6c8.chunk.js.LICENSE.txt",
+    "static/js/main.3d755f30.chunk.js.LICENSE.txt": "/labelU-Kit/static/js/main.3d755f30.chunk.js.LICENSE.txt",
     "static/media/10.1785e6e3.jpg": "/labelU-Kit/static/media/10.1785e6e3.jpg",
     "static/media/19.608ec5b7.jpg": "/labelU-Kit/static/media/19.608ec5b7.jpg",
     "static/media/20.ad3945c2.jpg": "/labelU-Kit/static/media/20.ad3945c2.jpg",
@@ -496,6 +496,6 @@
     "static/css/9.be0cdab6.chunk.css",
     "static/js/9.9e2d396f.chunk.js",
     "static/css/main.b69a22e2.chunk.css",
-    "static/js/main.abf7d6c8.chunk.js"
+    "static/js/main.3d755f30.chunk.js"
   ]
 }
